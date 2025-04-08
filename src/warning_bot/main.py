@@ -1,9 +1,9 @@
 import logging
 from config import BOT
-from hendlers.hendler import dp
+from hendlers.hendler import DP
 
 async def main():
-    await dp.start_polling(BOT)
+    await DP.start_polling(BOT)
 
 if __name__ == '__main__':
     logging.log(level=logging.INFO, msg="start app")
