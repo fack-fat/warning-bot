@@ -1,1 +1,1 @@
-from .config import DP, BOT
+from .config import DP, BOT, COLLECTION
